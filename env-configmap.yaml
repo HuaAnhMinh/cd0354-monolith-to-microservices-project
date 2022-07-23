@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-configmap
+  labels:
+    app: udagram
+data:
+  AWS_BUCKET: "711540767518"
+  AWS_REGION: us-east-1
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: database-1.c65f4ppc3ssw.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100
+  AWS_PROFILE: Udacity_Cloud_Dev
+  JWT_SECRET: "711540767518"
