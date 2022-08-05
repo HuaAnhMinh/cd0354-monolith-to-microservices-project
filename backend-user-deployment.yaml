@@ -27,7 +27,7 @@ spec:
               valueFrom:
                 configMapKeyRef:
                   name: env-configmap
-                  key: URL
+                  key: BACKEND-URL
             - name: AWS_BUCKET
               valueFrom:
                 configMapKeyRef:
