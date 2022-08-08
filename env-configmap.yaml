@@ -5,10 +5,10 @@ metadata:
   labels:
     app: udagram
 data:
-  AWS_BUCKET: "519831298233"
+  AWS_BUCKET: my-386795707668-bucket
   AWS_REGION: us-east-1
   POSTGRES_DB: postgres
-  POSTGRES_HOST: database-1.cjecqvqp1oby.us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: database-1.cqae9buroq1p.us-east-1.rds.amazonaws.com
   BACKEND-URL: http://localhost:8080
-  AWS_PROFILE: Udacity_Cloud_Dev
-  JWT_SECRET: "519831298233"
+  AWS_PROFILE: default
+  JWT_SECRET: "386795707668"
