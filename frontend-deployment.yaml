@@ -5,7 +5,7 @@ metadata:
     service: udagram-frontend-svc
   name: udagram-frontend
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       service: udagram-frontend-svc
