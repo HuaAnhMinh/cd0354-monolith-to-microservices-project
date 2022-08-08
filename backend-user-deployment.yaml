@@ -5,7 +5,7 @@ metadata:
     service: udagram-api-user-svc
   name: udagram-api-user
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       service: udagram-api-user-svc
